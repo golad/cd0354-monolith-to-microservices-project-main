@@ -3,7 +3,7 @@
 export POSTGRES_USERNAME=udagramdb1
 export POSTGRES_PASSWORD=Passw0rd123456.
 export POSTGRES_HOST=udagramdb.cy2dnceazjvm.us-east-1.rds.amazonaws.com
-export POSTGRES_DB=udagramdb1
+export POSTGRES_DB=postgres
 export AWS_BUCKET=udagram-bucket-1
 export AWS_REGION=us-east-1
 export AWS_PROFILE=default

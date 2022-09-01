@@ -23,7 +23,7 @@ spec:
         - name: POSTGRES_HOST
           value: udagramdb.cy2dnceazjvm.us-east-1.rds.amazonaws.com
         - name: POSTGRES_DB
-          value: udagramdb1
+          value: postgres
         - name: AWS_BUCKET
           value: udagram-bucket-1
         - name: AWS_REGION
@@ -38,6 +38,6 @@ spec:
         - containerPort: 80
         resources:
           limits:
-            cpu: 200m
+            cpu: 500m
           requests:
-            cpu: 100m
+            cpu: 200m
