@@ -14,18 +14,18 @@ spec:
     spec:
       containers:
       - name: backend-user
-        image: docker.io/311865/udagram-api-user:v2
+        image: docker.io/311865/udagram-api-user:v4
         env:
         - name: POSTGRES_USERNAME
-          value: udagramdb1
+          value: Udagramdb1
         - name: POSTGRES_PASSWORD
-          value: Passw0rd123456.
+          value: Udagramdb1
         - name: POSTGRES_HOST
-          value: udagramdb.cy2dnceazjvm.us-east-1.rds.amazonaws.com
+          value: udagramdb1.cdu24uusiqlu.us-east-1.rds.amazonaws.com
         - name: POSTGRES_DB
           value: postgres
         - name: AWS_BUCKET
-          value: udagram-bucket-1
+          value: udagrambk1
         - name: AWS_REGION
           value: us-east-1
         - name: AWS_PROFILE
